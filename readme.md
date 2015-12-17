@@ -1,7 +1,7 @@
 ##d-22-west-slope
 
 Responsive **Bootstrap WordPress** minimal **theme** created for 
-Area 7 (CNIA) District 22 Alcoholics Anonymous, serving 
+Area 7 (CNIA) [District 22 Alcoholics Anonymous](http://westernsloped22.org/), serving 
 El Dorado County, CA.
 
 #####Recommended plugins:
