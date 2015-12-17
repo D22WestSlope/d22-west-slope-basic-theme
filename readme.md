@@ -1,4 +1,4 @@
-#d-22-west-slope
+##d-22-west-slope
 
 Responsive Bootstrap WordPress minimal theme created for 
 Area 7 (CNIA) District 22 Alcoholics Anonymous, serving 
