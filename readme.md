@@ -6,15 +6,15 @@ El Dorado County, CA.
 
 ###Recommended plugins:
  
-*[WordPress.org 12 Step Meeting List plugin](https://wordpress.org/plugins/12-step-meeting-list/) 
+* [WordPress.org 12 Step Meeting List plugin](https://wordpress.org/plugins/12-step-meeting-list/) 
 
-*Bootstrap Shortcodes
+* Bootstrap Shortcodes
 
-*Ninja Forms
+* Ninja Forms
 
-*Black Studio Tiny MCE Widget
+* Black Studio Tiny MCE Widget
 
-*Advanced Custom Fields
+* Advanced Custom Fields
 
-*Custom Post Type UI
+* Custom Post Type UI
 
