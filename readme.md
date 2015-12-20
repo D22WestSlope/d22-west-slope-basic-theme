@@ -8,7 +8,7 @@ El Dorado County, CA, on the West Slope of the Sierra Nevada mountain range.
  
 * [WordPress.org 12 Step Meeting List plugin](https://wordpress.org/plugins/12-step-meeting-list/) 
 
-* Bootstrap Shortcodes
+* [Bootstrap Shortcodes](https://wordpress.org/plugins/bootstrap-shortcodes/)
 
 * Ninja Forms
 
