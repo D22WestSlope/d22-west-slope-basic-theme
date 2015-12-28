@@ -34,6 +34,11 @@ body {
 @-o-viewport      { width: device-width; }
 @viewport         { width: device-width; }
 
+
+/*
+ *     	Navigation
+ */
+
 @media (min-width:768px) {
 	.sub-menu {
 		display: none;
@@ -77,3 +82,41 @@ body {
 	color: #fff;
 	font-weight: bold;
 }
+
+/*
+ *     	Header widgets
+ */
+
+.header-widget {
+	background: #004a84;
+ 	color: #eee;
+}
+.header-widget .logo h1 {
+	font-size: 1.6em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.header-widget h2 {
+	font-size: 1.4em;
+	margin-top: 50px;
+}
+.header-widget .logo h2 {
+	font-size: 1.2em;
+	margin: 10px 0;
+}
+.header-widget .logo p {
+	font-size: 1.0em;
+	margin: 0 0 20px;
+}
+.header-content h2 a {
+	underline: none;
+}
+.header-content h2 a:hover {
+	color: #eee;
+}
+
+
+.front-page-content {
+	padding-top: 120px;
+}
+
