@@ -5,6 +5,7 @@ function theme_styles() {
 
 	wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/css/bootstrap.min.css' );
 	wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
+	wp_enqueue_style( 'theme-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic,600,600italic' );
 
 }
 add_action( 'wp_enqueue_scripts', 'theme_styles' );
@@ -57,5 +58,16 @@ function create_widget( $name, $id, $description ) {
 create_widget( 'Front Page Left', 'front-left', 'Displays on the left of the homepage' );
 create_widget( 'Front Page Center', 'front-center', 'Displays in the center of the homepage' );
 create_widget( 'Front Page Right', 'front-right', 'Displays on the right of the homepage' );
+
+create_widget( 'Header Left', 'header-left', 'Displays on the left of the header' );
+create_widget( 'Header Center', 'header-center', 'Displays in the center of the header' );
+create_widget( 'Header Right', 'header-right', 'Displays on the right of header' );
+
+
+
+
+
+
+
 
 ?>
