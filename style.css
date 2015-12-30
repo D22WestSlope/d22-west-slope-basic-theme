@@ -46,19 +46,67 @@ textarea {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
+    color: #1d5d99;
 }
 
 
+/*
+ * 		icomoon.io fonts (Android and iOS)
+ */
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?4b59pu');
+    src:    url('fonts/icomoon.eot?4b59pu#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?4b59pu') format('truetype'),
+        url('fonts/icomoon.woff?4b59pu') format('woff'),
+        url('fonts/icomoon.svg?4b59pu#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-apple:before {
+    content: "\e600";
+}
+.icon-android:before {
+    content: "\e601";
+}
 
 /*
  *     	Navigation
  */
+
+.navbar  {
+	background-color: #e3e3d7;	
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #1d5d99;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #3094f2;
+}
 
 @media (min-width:768px) {
 	.sub-menu {
 		display: none;
 		position: absolute;
 		background: #222;
+		background: #d6d6cb;
 		padding: 10px 15px;
 		width: 200px;		
 	}
@@ -80,15 +128,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .sub-menu a  {
 	color: #999;
+	color: #1d5d99;
 	text-decoration: none;
 }
 
 .sub-menu a:hover  {
-	color: #fff;	
+	color: #fff;
+	color: #3094f2;	
 }	
 
 .current-menu-item > a, .current-menu-parent > a {
-	background: #000;	
+	background: #000;
+	background: #d6d6cb;	
 }
 .current-menu-parent li a {
 	background: inherit;
@@ -104,10 +155,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-widget {
 	background: #004a84;
+	background: #d3e7eb;
+	background-image: url("http://localhost/wp-content/uploads/2015/12/clouds.png");
+	background-repeat: no-repeat;
+	background-attachment: ;
+	background-position: right bottom;
  	color: #eee;
+ 	color: #1d5d99;
 }
 .header-widget .logo h1 {
 	font-size: 1.6em;
+	font-weight: 600;
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
@@ -123,6 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 .logo a {
 	text-decoration: none;
 	color: #eee;
+	color: #1d5d99;
 }
 .header-widget .logo p {
 	font-size: 1.0em;
@@ -130,9 +189,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header-content a {
 	color: #eee;
+	color: #1d5d99;
 	text-decoration: none;
 }
 .front-page-content {
 	padding-top: 120px;
 }
+/*
+ * 		Meetings
+ */
 
+#meetings {
+	margin-top:180px;
+}
+
+/*
+ * 		Animated gif
+ */
+
+ .aa-anim {
+ 	padding-top: 30px;
+ }
