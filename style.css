@@ -100,6 +100,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #3094f2;
 }
+.hamburger {
+	background-color: #888;
+}
 
 @media (min-width:768px) {
 	.sub-menu {
@@ -149,6 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
+
 /*
  *     	Header widgets
  */
@@ -192,15 +196,63 @@ h1, h2, h3, h4, h5, h6 {
 	color: #1d5d99;
 	text-decoration: none;
 }
+.hotline h2 {
+	color: #773838;
+}
 .front-page-content {
 	padding-top: 120px;
 }
+@media screen and (max-width:991px) {
+	.logo {
+		padding-top: 5px;
+		margin-bottom: -25px;
+		padding-bottom: 0;
+	}
+	.hotline {
+		margin-top: 0;
+		margin-bottom: -25px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.header-content {
+		margin-top: 0;
+		padding-top: 0;
+	}
+}
+
+/*
+ *     	Front page widgets
+ */
+@media screen and (max-width:991px) {
+	.what-is-aa {
+		margin-top: 150px;
+	}
+
+}
+
+
 /*
  * 		Meetings
  */
 
 #meetings {
-	margin-top:180px;
+	margin-top:140px;
+}
+#meeting .page-header {
+		margin-top: 160px;
+	}
+@media screen and (max-width:991px) {
+	#meetings {
+		margin-top: 250px;
+	}
+	#meeting .page-header {
+		margin-top: 265px;
+	}
+}
+@media screen and (max-width:767px) {
+	#meetings {
+		margin-top: 250px;
+	}
 }
 
 /*
