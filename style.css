@@ -42,8 +42,12 @@ button,
 input,
 select,
 textarea {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Slabo', serif;
+    font-size: 1.6em;
+    line-height: 1.5;
+    color: #555;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
     color: #1d5d99;
@@ -91,14 +95,13 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .navbar  {
-	background-color: #e3e3d7;	
+	background-color: #e3e3d7;
+	font-family: 'Open Sans', sans-serif;	
 }
 .navbar-inverse {
 	border-color: #e3e3d7;
 }
 .navbar-inverse .navbar-nav>li>a {
-    color: #1d5d99;
-    color: #6e3919;
     color: #1d5d99;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -163,60 +166,38 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .header-widget {
-	background: #004a84;
 	background: #d3e7eb;
 	background-image: url("http://localhost/wp-content/uploads/2015/12/clouds.png");
 	background-repeat: no-repeat;
-	background-attachment: ;
 	background-position: right bottom;
- 	color: #1d5d99;
+ 	color: #6e3919;
 }
-.logo h1 a {
-	font-family: 'Slabo', serif;
-		color: #6e3919;
+.header-widget h1,
+.header-widget h2,
+.header-widget p {
+	color: #6e3919;
 }
-
+.header-widget a {
+	color: #6e3919;
+	text-decoration: none;
+}
 .header-widget .logo h1 {
-	font-size: 1.8em;
+	font-family: 'Slabo', serif;
+	font-size: 1.6em;
 	font-weight: 600;
-	margin-top: 15px;
-	margin-bottom: 0;
-	padding-bottom: 5px;
-}
-.header-widget h2 {
-		font-family: 'Slabo', serif;
-	font-size: 1.4em;
-	margin-top: 50px;
-	margin-bottom: 30px;
+	margin: 20px 0 0;
 }
 .header-widget .logo h2 {
-	font-family: 'Slabo', serif;
-	font-size: 1.2em;
-	margin: -15px 0 5px;
-	color: #6e3919;
-}
-.logo a {
-	text-decoration: none;
-	color: #eee;
-	color: #1d5d99;
-	color: #6e3919;
+	font-size: 1.1em;
+	margin: 0;
 }
 .header-widget .logo p {
-	font-family: 'Slabo', serif;
 	font-size: 1.0em;
-	margin: 0 0 15px;
-	color: #6e3919;
 }
-.header-content a {
-	color: #eee;
-	color: #1d5d99;
-	color: #6e3919;
-	text-decoration: none;
-}
-.hotline h2 {
-		font-family: 'Slabo', serif;
-	font-size: 1.6em;
-	color: #6e3919;
+.header-widget h2,
+.header-widget a h2 {
+	font-size: 1.2em;
+	margin: 50px 0 0;
 }
 .static-page-content,
 .front-page-content {
