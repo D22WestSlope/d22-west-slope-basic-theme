@@ -108,8 +108,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #3094f2;
 }
 .hamburger {
-	background-color: #888;
-	background-color: #6e3919;
 	background-color: #1d5d99;	
 }
 
@@ -204,28 +202,41 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 120px;
 }
 @media screen and (max-width:991px) {
-	.static-page-content {
-		margin-top: 120px;
-	}
+
 }
 @media screen and (max-width:767px) {
 	.static-page-content {
 		margin-top: 115px;
 	}
+	.front-page-content {
+		margin-top: -45px;
+	}
+	.header-widget {
+		text-align: center;
+	}
+	.logo {
+		margin-top: 35px;
+	}
 }
 @media screen and (max-width:991px) {
+	.static-page-content {
+		margin-top: 120px;
+	}
+	.front-page-content {
+		margin-top: -55px;
+	}
 	.logo {
-		padding-top: 5px;
-		margin-bottom: -25px;
+		padding-top: 0;
+		margin-bottom: -5px;
 		padding-bottom: 0;
 	}
-	.hotline {
+	h2.hotline {
 		margin-top: 0;
-		margin-bottom: -25px;
+		margin-bottom: -30px;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
-	.header-content {
+	h2.find-a-meeting a {
 		margin-top: 0;
 		padding-top: 0;
 	}
