@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-
     <div class="jumbotron hidden front-page-content">
       <div class="container">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

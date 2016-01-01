@@ -5,7 +5,7 @@ function theme_styles() {
 
 	wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/css/bootstrap.min.css' );
 	wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
-	wp_enqueue_style( 'theme-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic,600,600italic' );
+	wp_enqueue_style( 'theme-google-fonts', 'https://fonts.googleapis.com/css?family=Slabo+27px|Open+Sans:400,400italic,600,700' );
 
 }
 add_action( 'wp_enqueue_scripts', 'theme_styles' );
@@ -22,6 +22,7 @@ function theme_js() {
 	$wp_scripts->add_data( 'respond_js', 'conditional', 'lt IE 9' );
 
 	wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/js/bootstrap.min.js', array ('jquery'), '', true );
+	wp_enqueue_script( 'theme_js', get_template_directory_uri() . '/js/theme.js', array ('jquery'), '', true );
 	wp_enqueue_script( 'ie10_viewport_fix', get_template_directory_uri() . '/js/ie10-viewport-bug-workaround.js', array('jquery'), '', true );
 
 
@@ -68,7 +69,7 @@ create_widget( 'Header Left', 'header-left', 'Displays on the left of the header
 create_widget( 'Header Center', 'header-center', 'Displays in the center of the header' );
 create_widget( 'Header Right', 'header-right', 'Displays on the right of header' );
 
-
+create_widget( 'Page Sidebar', 'page', 'Displays on the side of pages with a sidebar' );
 
 
 
