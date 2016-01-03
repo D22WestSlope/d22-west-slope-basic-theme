@@ -188,6 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 .header-widget .logo h2 {
 	font-size: 1.1em;
 	margin: 0;
+	padding-left: 17px;
 }
 .header-widget .logo p {
 	font-size: 1.0em;
@@ -195,21 +196,27 @@ h1, h2, h3, h4, h5, h6 {
 .header-widget h2,
 .header-widget a h2 {
 	font-size: 1.2em;
-	margin: 50px 0 0;
+	margin: 35px 0 0;
+}
+.attribution {
+	font-size: .7em;
+	font-style: italic;
+	font-weight: lighter;
 }
 .static-page-content,
 .front-page-content {
 	padding-top: 120px;
 }
-@media screen and (max-width:991px) {
 
-}
 @media screen and (max-width:767px) {
 	.static-page-content {
 		margin-top: 115px;
 	}
 	.front-page-content {
 		margin-top: -45px;
+	}
+	.logo h2 a {
+		margin-left: 0;
 	}
 	.header-widget {
 		text-align: center;
@@ -232,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	h2.hotline {
 		margin-top: 0;
-		margin-bottom: -30px;
+		margin-bottom: -20px;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
@@ -282,6 +289,14 @@ h1, h2, h3, h4, h5, h6 {
  .update-form {
  	margin-top: 30px;
  }
+ #contactForm {
+ 	margin-top: 40px;
+ }
+ @media screen and (max-width:767px) {
+	#contactForm {
+		margin-top: 70px;
+	}
+}
 
 /*
  * 		Meetings
@@ -313,4 +328,11 @@ h1, h2, h3, h4, h5, h6 {
 
  .aa-anim {
  	padding-top: 30px;
+ }
+
+ /*
+ * 		Contributions page
+ */
+ .note {
+ 	font-size: .9em;
  }
