@@ -69,7 +69,7 @@ create_widget( 'Header Left', 'header-left', 'Displays on the left of the header
 create_widget( 'Header Center', 'header-center', 'Displays in the center of the header' );
 create_widget( 'Header Right', 'header-right', 'Displays on the right of header' );
 
-create_widget( 'Page Sidebar', 'page', 'Displays on the side of pages with a sidebar' );
+create_widget( 'Page Sidebar', 'page-with-sidebar', 'Displays on the side of pages with a sidebar' );
 
 
 

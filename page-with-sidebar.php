@@ -3,9 +3,12 @@
   Template Name: Page with Sidebar
 */
 ?>
+
 <?php get_header(); ?>
     <div class="container static-page-content">
       <div class="row">
+
+      	<?php get_sidebar(); ?>
         
         <div class="col-md-9">
  
@@ -28,8 +31,6 @@
 			<?php endif; ?>
 
         </div>
-        
-        <?php get_sidebar(); ?>
       
       </div>
 

@@ -136,18 +136,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sub-menu a  {
-	color: #999;
 	color: #1d5d99;
 	text-decoration: none;
 }
 
 .sub-menu a:hover  {
-	color: #fff;
 	color: #3094f2;
 }	
 
 .current-menu-item > a, .current-menu-parent > a {
-	background: #000;
 	background: #d6d6cb;	
 }
 .current-menu-parent li a {
@@ -272,14 +269,25 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .sidebar {
-	margin-top: 20px;
-	color: #999;
+	margin-top: 70px;
 }
 .sidebar h3 {
 	color: #777;
 }
 .widget {
 	margin: 10px 0 20px;
+}
+ul#menu-menu-2.menu {
+	list-style-type: none;
+	margin-left: 0;
+}
+ul#menu-menu-2.menu li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1em;
+}
+ul#menu-menu-2.menu li a:hover {
+	text-decoration: none;
+	color: #3094f2;
 }
 
 /*
@@ -336,3 +344,16 @@ h1, h2, h3, h4, h5, h6 {
  .note {
  	font-size: .9em;
  }
+
+ /*
+ * 		Events calendar
+ */
+
+
+
+
+
+
+
+
+
