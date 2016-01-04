@@ -261,7 +261,6 @@ h1, h2, h3, h4, h5, h6 {
 	.what-is-aa {
 		margin-top: 150px;
 	}
-
 }
 
 /*
@@ -270,6 +269,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar {
 	margin-top: 70px;
+}
+@media screen and (max-width:991px) {
+	.sidebar {
+	margin-top: -50px;
+	}
 }
 .sidebar h3 {
 	color: #777;
@@ -344,6 +348,14 @@ ul#menu-menu-2.menu li a:hover {
  .note {
  	font-size: .9em;
  }
+
+/*
+ * 		District 22 page
+ */
+
+.subcommittees {
+	margin-top: 30px;
+}
 
  /*
  * 		Events calendar
