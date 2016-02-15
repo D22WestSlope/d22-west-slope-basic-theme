@@ -14,7 +14,5 @@ El Dorado County, CA, on the West Slope of the Sierra Nevada mountain range.
 
 * Black Studio Tiny MCE Widget
 
-* Advanced Custom Fields
 
-* Custom Post Type UI
 
